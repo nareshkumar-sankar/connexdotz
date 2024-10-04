@@ -1,0 +1,16 @@
+.nav img{
+    width: 140px;
+    height: 27px;
+}
+.nav{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #EDF2F1;
+}
+.btn-nav{
+    background-color: #007456;
+    border-radius: 50px;
+    color: #fff;
+    padding: 9px 24px;
+}

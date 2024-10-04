@@ -1,0 +1,300 @@
+#what-we-do-content1{
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+#what-we-do-content1 #con1{
+    margin-top: 50px;
+}
+#what-we-do-content1 #con1 p:nth-child(1){
+    font-weight: 600;
+    font-size: 46px;
+    line-height: 58px;
+    color: #111111;
+}
+#what-we-do-content1 #con1 p span{
+    color: #007456;
+}
+#what-we-do-content1 #con1 p:nth-child(2){
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+}
+#what-we-do-content1 #con2{
+    border-radius: 50px;
+    border: 1px solid #fff;
+    padding: 0px 40px;
+    margin-bottom: 10px;
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 8px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+#what-we-do-content1 #con2 span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #555555;
+}
+#what-we-do-content1 #con2 span i{
+    color: #555555;
+}
+#what-we-do-content1 .btn-con{
+    background-color: #007456;
+    border-radius: 50px;
+    color: #fff;
+    padding: 9px 24px;
+    margin: 14px 0px 14px 18px;
+    border: none;
+}
+#what-we-do-content1>div>div>p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin-top: 20px;
+}
+#what-we-do-content1 #con3{
+    margin-top: 50px;
+}
+#what-we-do-content1 #con3 p{
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+#what-we-do-content1 #con3 div>img:nth-child(1){
+   width: 56px;
+   height: 46px;
+}
+#what-we-do-content1 #con3 div>img:nth-child(2){
+   width: 40px;
+   height: 36px;
+}
+#what-we-do-content1 #con3 div>img:nth-child(3){
+   width: 47px;
+   height: 37px;
+}
+#what-we-do-content1 #con3 div>img:nth-child(4){
+   width: 63px;
+   height: 38px;
+}
+#what-we-do-content1 #con3 div{
+    display: flex;
+}
+#what-we-do-content1 #con4 img{
+    width: 410px;
+    height: 547px;
+}
+#what-we-do-content1 #con4{
+    text-align: center;
+}
+
+#what-we-do-content2{
+    background-color: #F9F9F9;
+    padding: 50px 0px;
+}
+#what-we-do-content2>div>div>div{
+    background-color: #EDF2F1;
+    padding: 40px 24px;
+    border-radius: 24px;
+    flex-direction: column;
+}
+#what-we-do-content2>div>div>div i{
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #555555;
+}
+#what-we-do-content2>div>div>div p{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 36px;
+    color: #007456;
+}
+
+
+#what-we-do-content3{
+    background-color: #BEE3D6;
+    padding: 40px 0;
+}
+#what-we-do-content3 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #111111;
+}
+#what-we-do-content3 h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+    margin: 0;
+}
+#what-we-do-content3>div>#con1>div:nth-child(2){
+    text-align: end;
+}
+#what-we-do-content3 a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007456;
+}
+#what-we-do-content3 img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+#what-we-do-content3 .card{
+    padding: 16px;
+    border-radius: 16px;
+    border: none;
+    background-color: #FFFFFF;
+}
+#what-we-do-content3 .card .card-body{
+    padding: 0;
+}
+#what-we-do-content3 .card .card-body .card-title{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #111111;
+    margin-bottom: 10px;
+}
+#what-we-do-content3 .card .card-body .card-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+
+
+#what-we-do-content4{
+    padding: 50px 0;
+    background-color: #F9F9F9;
+}
+#what-we-do-content4 h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #111111;
+}
+#what-we-do-content4 a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007456;
+}
+#what-we-do-content4>div>#con1>div:nth-child(2){
+    text-align: end;
+}
+#what-we-do-content4 img{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+#what-we-do-content4 .card .card-body .card-text{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+}
+#what-we-do-content4 .card{
+    border-radius: 16px;
+    border: none;
+    padding: 16px;
+    background-color: #F9F9F9;
+}
+#what-we-do-content4 .card .card-body{
+    padding: 0;
+}
+
+
+@media screen and (max-width:767px){
+    #what-we-do-content1 #con1 p:nth-child(1){
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 45px;
+        color: #111111;
+    }
+    #what-we-do-content1 #con1 p span{
+        color: #007456;
+    }
+    #what-we-do-content1 #con1 p:nth-child(2){
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #111111;
+    }
+    #what-we-do-content1 #con2 span{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: #555555;
+    }
+    
+    #what-we-do-content1>div>div>p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: #555555;
+        margin-top: 20px;
+    }
+    #what-we-do-content1 #con3{
+        margin-top: 0px;
+    }
+    #what-we-do-content1 #con3 p{
+        color: #555555;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+    }
+   
+    
+    #what-we-do-content3 .card{
+        padding: 16px;
+        border-radius: 16px;
+        border: none;
+        background-color: #FFFFFF;
+        margin-left: 70px;
+    }
+    #what-we-do-content3 h3{
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 36px;
+        color: #111111;
+    }
+    #what-we-do-content3 h5{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #555555;
+        margin: 0;
+    }
+    #what-we-do-content3 a{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: #007456;
+    }
+    #what-we-do-content4 .card{
+        border-radius: 16px;
+        border: none;
+        padding: 16px;
+        background-color: #F9F9F9;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    
+}
+
+@media screen and (min-width: 1023px) and (max-width: 1400px){
+    #what-we-do-content3>div>div{
+        justify-content: space-between;
+        align-items: center;
+    }
+    #what-we-do-content3>div{
+        padding-left: 180px;
+    }
+    #what-we-do-content4>div{
+        padding-left: 180px;
+    }
+}

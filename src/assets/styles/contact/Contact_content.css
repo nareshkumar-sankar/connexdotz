@@ -1,0 +1,432 @@
+#contact-content1 #img-div1{
+    background-image: url("../../img/contact/img1.jpg");
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+    top: 100px;
+    left: 28px;
+}
+#contact-content1 #img-div2{
+    background-image: url("../../img/contact/img2.jpg");
+    width: 270px;
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+    left: 231px;
+    top: -9px;
+}
+#contact-content1 #img-div3{
+    background-image: url("../../../assets/img/contact/img3.jpg");
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    position: relative;
+    left: 535px;
+    top: -120px;
+}
+#contact-content1 h1{
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+    color: #111111;
+}
+#contact-content1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555555;
+}
+
+
+#contact-content2{
+    background-color: #BEE3D6;
+    padding: 50px 0px;
+}
+#contact-content2>div>h1{
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 58px;
+    color: #007456;
+}
+#contact-content2>div>p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #007456;
+    margin-bottom: 50px;
+}
+#contact-content2 .input-style{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 456px;
+    outline: none;
+    margin-bottom: 50px;
+    border-color: #007456;
+    background-color: #BEE3D6;
+}
+#contact-content2 #input-text{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 456px;
+    outline: none;
+    margin-bottom: 5px;
+    border-color: #007456;
+    background-color: #BEE3D6;
+}
+#contact-content2 #txt-count{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #007456;
+}
+#contact-content2 .input-items p{
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #007456;
+}
+#contact-content2 .input-items span{
+    color: rgb(201, 22, 22);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+@media screen and (max-width:767px){
+    #contact-content2 .input-items{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    #flex-order1{
+        order: 2;
+    }
+    #flex-order2{
+        order: 4;
+    }
+    #flex-order3{
+        order: 0;
+    }
+    #flex-order4{
+        order: 5;
+    }
+    #flex-order5{
+        order: 5;
+    }
+    #contact-content2 .input-style{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 380px;
+        outline: none;
+        border-color: #007456;
+        background-color: #BEE3D6;
+        /* height: 18px; */
+    }
+    #contact-content2 #input-text{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 380px;
+        outline: none;
+        margin-bottom: 5px;
+        border-color: #007456;
+        background-color: #BEE3D6;
+    }
+    #contact-content2>div>h1{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 58px;
+        color: #007456;
+    }
+    #contact-content1 #img-div1{
+        background-image: url("../../img/contact/img1.jpg");
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        top: 50px;
+        left: 0px;
+    }
+    #contact-content1 #img-div2{
+        background-image: url("../../img/contact/img2.jpg");
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 110px;
+        top: -9px;
+    }
+    #contact-content1 #img-div3{
+        background-image: url("../../../assets/img/contact/img3.jpg");
+        width: 100px;
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 270px;
+        top: -70px;
+    }
+    #contact-content1 h1{
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 70px;
+        color: #111111;
+    }
+    #contact-content1 p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #555555;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    #contact-content2 .input-items{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #flex-order1{
+        order: 2;
+    }
+    #flex-order2{
+        order: 4;
+    }
+    #flex-order3{
+        order: 0;
+    }
+    #flex-order4{
+        order: 5;
+    }
+    #flex-order5{
+        order: 5;
+    }
+    #contact-content2 .input-style{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 580px;
+        outline: none;
+        margin-bottom: 50px;
+        border-color: #007456;
+        background-color: #BEE3D6;
+    }
+    #contact-content2 #input-text{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 580px;
+        outline: none;
+        margin-bottom: 5px;
+        border-color: #007456;
+        background-color: #BEE3D6;
+    }
+    #contact-content1 #img-div1{
+        background-image: url("../../img/contact/img1.jpg");
+        width: 170px;
+        height: 170px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        top: 100px;
+        left: 28px;
+    }
+    #contact-content1 #img-div2{
+        background-image: url("../../img/contact/img2.jpg");
+        width: 270px;
+        height: 270px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 231px;
+        top: -9px;
+    }
+    #contact-content1 #img-div3{
+        background-image: url("../../../assets/img/contact/img3.jpg");
+        width: 170px;
+        height: 170px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 535px;
+        top: -120px;
+    }
+    #contact-content1 h1{
+        font-weight: 600;
+        font-size: 45px;
+        line-height: 70px;
+        color: #111111;
+    }
+    #contact-content1 p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #555555;
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1400px){
+    #contact-content2 .input-items{
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 90px;
+        /* gap: 150px; */
+    }
+    #flex-order1{
+        order: 2;
+    }
+    #flex-order2{
+        order: 4;
+    }
+    #flex-order3{
+        order: 0;
+    }
+    #flex-order4{
+        order: 5;
+    }
+    #flex-order5{
+        order: 5;
+    }
+    #contact-content2 .input-style{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 380px;
+        outline: none;
+        border-color: #007456;
+        background-color: #BEE3D6;
+    }
+    #contact-content2 #input-text{
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        width: 380px;
+        outline: none;
+        margin-bottom: 5px;
+        border-color: #007456;
+        background-color: #BEE3D6;
+    }
+    #contact-content1 #img-div1{
+        background-image: url("../../img/contact/img1.jpg");
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        top: 100px;
+        left: 0px;
+    }
+    #contact-content1 #img-div2{
+        background-image: url("../../img/contact/img2.jpg");
+        width: 200px;
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 165px;
+        top: -9px;
+    }
+    #contact-content1 #img-div3{
+        background-image: url("../../../assets/img/contact/img3.jpg");
+        width: 150px;
+        height: 150px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 16px;
+        position: relative;
+        left: 385px;
+        top: -120px;
+    }
+    #contact-content1 h1{
+        font-weight: 600;
+        font-size: 50px;
+        line-height: 50px;
+        color: #111111;
+    }
+    #contact-content1 p{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: #555555;
+    }
+}
+#contact-content2 .check-out-style{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+#contact-content2 .check-out-style p{
+     margin:0px 0px 0px 5px;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 24px;
+     color: #007456;
+     width: 430px;
+}
+#contact-content2 .check-out-style input{
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+}
+#contact-content2 #terms span{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007456;
+}
+#contact-content2 #terms{
+    margin-top: 10px;
+}
+#contact-content2 #terms p{
+    margin-bottom: 5px;
+    margin-top: 1px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #007456;
+}
+#contact-content2 #btn button{
+    padding: 11px 26px;
+    border-radius: 50px;
+    outline: none;
+    background-color: #007456;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+#contact-content2 #btn{
+    margin-top: 25px;
+}

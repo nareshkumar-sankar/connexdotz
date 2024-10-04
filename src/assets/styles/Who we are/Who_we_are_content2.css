@@ -1,0 +1,197 @@
+#who-we-are-content5{
+    margin-top: 100px;
+    margin-bottom: 130px;
+}
+#who-we-are-content5 .right img{
+    width: 550px;
+    height: 549px;
+    margin-left: 20px;
+}
+#who-we-are-content5 .left{
+    margin-top: 110px;
+    width: 636px;
+}
+#who-we-are-content5 .left h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #007456;
+    margin-bottom: 20px;
+}
+#who-we-are-content5 .left p{
+    color: #555555;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+}
+#who-we-are-content5 .left #grid-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%; 
+    row-gap: 30px;
+}
+#who-we-are-content5 .left #grid-container .grid-items img{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+#who-we-are-content5 .left #grid-container .grid-items p{
+    color: #111111;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 0;
+    margin-top: 14px;
+}
+
+#who-we-are-content6{
+    margin-bottom: 80px;
+}
+#who-we-are-content6 #con1 h5{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    text-align: center;
+}
+#who-we-are-content6 #con1 p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#who-we-are-content6 #con2>div>div{
+    color: #007456;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 70px;
+}
+#who-we-are-content6 #con2>div>div>p{
+    color: #111111;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+#who-we-are-content7{
+    background-color: #B8D6CF;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+}
+#who-we-are-content7 h2{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #007456;
+    text-align: center;
+}
+#who-we-are-content7 h3{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #555555;
+    text-align: center;
+}
+#who-we-are-content7 #client-cards{
+    margin-top: 35px;
+}
+#who-we-are-content7 #client-cards .client-card .con1 img{
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+}
+#who-we-are-content7 #client-cards .client-card{
+    background-color: #FFFFFF;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 15px;
+    width: 400px;
+    padding: 20px;
+}
+#who-we-are-content7 #client-cards .client-card .con1 p:nth-child(1){
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+    margin: 0;
+    margin-right: 150px;
+}
+#who-we-are-content7 #client-cards .client-card .con1 p:nth-child(2){
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+}
+#who-we-are-content7 #client-cards .client-card .con1 {
+    align-items: center;
+}
+#who-we-are-content7 #client-cards .client-card .con1 i{
+    color: #007456;
+    font-size: 22px;
+}
+#who-we-are-content7 #client-cards .client-card .con2 p{
+    font-weight: 400;
+    font-size: 16px; 
+    line-height: 24px;
+    color: #555555;
+    width: 300px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width:767px){
+    #who-we-are-content5{
+        gap: 0px;
+    }
+    #who-we-are-content5 .right img{
+        width: 350px;
+        height: 349px;
+        margin-left: 20px;
+    }
+    #who-we-are-content5 .left{
+        margin-top: 20px;
+    }
+    #who-we-are-content5 .left p{
+        color: #555555;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    #who-we-are-content6 #con1 p{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        color: #111111;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    #who-we-are-content7 #client-cards .client-card{
+        background-color: #FFFFFF;
+        border: 1px solid rgb(239, 239, 239);
+        border-radius: 15px;
+        width: 400px;
+        padding: 20px;
+        margin-left: 150px;
+    }
+    #who-we-are-content5 .right img{
+        width: 640px;
+        height: 649px;
+        margin-left: 20px;
+    }
+}
+@media screen and (min-width: 1023px) and (max-width: 1400px){
+    #who-we-are-content5 .right img{
+        width: 640px;
+        height: 649px;
+        margin-left: 140px;
+    }
+    #who-we-are-content5 .left{
+        margin-top: 20px;
+        width: 636px;
+        margin-left: 170px;
+    }
+}
